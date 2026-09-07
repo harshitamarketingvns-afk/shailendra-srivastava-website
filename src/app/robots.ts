@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/data/site";
-
+export const dynamic = " force-ststic"
 /**
  * Robots configuration.
  * Allows the entire site; points crawlers at the XML sitemap.
