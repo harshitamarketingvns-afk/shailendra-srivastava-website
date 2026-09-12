@@ -120,7 +120,7 @@ export const books: Book[] = [
     series: "The Birth of God Series",
     category: "Science & Philosophy",
     platform: "amazon",
-    amazonUrl: "#",
+    amazonUrl: "https://www.amazon.in/dp/B0HHSCQGF5",
     gumroadUrl: "#",
     featured: true,
     order: 0,
