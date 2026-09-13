@@ -268,7 +268,7 @@ export const books: Book[] = [
     title: "Diamond Basics",
     subtitle: "The foundation of diamond knowledge — for beginners and professionals",
     author: author.name,
-    cover: null,
+    cover: "/books/diamond-basics.png",
     description:
       "The essential starting point for anyone entering the diamond trade. Covers the language, the 4Cs, anatomy, light behaviour and the everyday vocabulary used in the diamond world.",
     longDescription:
