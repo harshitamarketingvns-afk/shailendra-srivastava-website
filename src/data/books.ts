@@ -440,7 +440,7 @@ export const books: Book[] = [
     category: "Fiction & Speculative Thought",
     platform: "gumroad",
     amazonUrl: "#",
-    gumroadUrl: "#",
+    gumroadUrl: "https://harshitaai.gumroad.com/l/tgmugp",
     order: 10,
   },
 
