@@ -491,7 +491,7 @@ export const books: Book[] = [
     series: "Standalone",
     category: "Fiction & Speculative Thought",
     platform: "amazon",
-    amazonUrl: "#",
+    amazonUrl: "https://www.amazon.in/dp/B0H7NNMQMK",
     gumroadUrl: "#",
     order: 3,
   },
