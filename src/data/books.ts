@@ -278,7 +278,7 @@ export const books: Book[] = [
     category: "Diamonds & Jewellery",
     platform: "gumroad",
     amazonUrl: "#",
-    gumroadUrl: "#",
+    gumroadUrl: "https://harshitaai.gumroad.com/l/lhsvj",
     order: 1,
   },
   {
@@ -296,7 +296,7 @@ export const books: Book[] = [
     category: "Diamonds & Jewellery",
     platform: "gumroad",
     amazonUrl: "#",
-    gumroadUrl: "#",
+    gumroadUrl: "https://harshitaai.gumroad.com/l/fxlbjk",
     order: 2,
   },
   {
@@ -314,7 +314,7 @@ export const books: Book[] = [
     category: "Diamonds & Jewellery",
     platform: "gumroad",
     amazonUrl: "#",
-    gumroadUrl: "#",
+    gumroadUrl: "https://harshitaai.gumroad.com/l/ijzgxzn",
     order: 3,
   },
   {
@@ -332,7 +332,7 @@ export const books: Book[] = [
     category: "Diamonds & Jewellery",
     platform: "gumroad",
     amazonUrl: "#",
-    gumroadUrl: "#",
+    gumroadUrl: "https://harshitaai.gumroad.com/l/nqpcqt",
     order: 4,
   },
   {
@@ -350,7 +350,7 @@ export const books: Book[] = [
     category: "Diamonds & Jewellery",
     platform: "gumroad",
     amazonUrl: "#",
-    gumroadUrl: "#",
+    gumroadUrl: "https://harshitaai.gumroad.com/l/fouxjr",
     order: 5,
   },
   {
@@ -368,7 +368,7 @@ export const books: Book[] = [
     category: "Diamonds & Jewellery",
     platform: "gumroad",
     amazonUrl: "#",
-    gumroadUrl: "#",
+    gumroadUrl: "https://harshitaai.gumroad.com/l/jgfolf",
     order: 6,
   },
   {
@@ -386,7 +386,7 @@ export const books: Book[] = [
     category: "Diamonds & Jewellery",
     platform: "gumroad",
     amazonUrl: "#",
-    gumroadUrl: "#",
+    gumroadUrl: "https://harshitaai.gumroad.com/l/zrqlys",
     order: 7,
   },
   {
@@ -404,7 +404,7 @@ export const books: Book[] = [
     category: "Diamonds & Jewellery",
     platform: "gumroad",
     amazonUrl: "#",
-    gumroadUrl: "#",
+    gumroadUrl: "https://harshitaai.gumroad.com/l/xrzqwl",
     order: 8,
   },
   {
@@ -422,7 +422,7 @@ export const books: Book[] = [
     category: "Diamonds & Jewellery",
     platform: "gumroad",
     amazonUrl: "#",
-    gumroadUrl: "#",
+    gumroadUrl: "https://harshitaai.gumroad.com/l/jvopu",
     order: 9,
   },
   {
