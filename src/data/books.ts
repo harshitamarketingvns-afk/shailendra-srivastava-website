@@ -286,7 +286,7 @@ export const books: Book[] = [
     title: "डायमंड ग्रेडिंग",
     subtitle: "Diamond Grading — the 4Cs, labs and the language of quality",
     author: author.name,
-    cover: null,
+    cover:"/books/diamond grading.png",
     description:
       "ग्रेडिंग की दुनिया — 4Cs, लैब रिपोर्ट, और गुणवत्ता की भाषा को व्यावहारिक उदाहरणों के साथ समझाने वाली एक प्रामाणिक पुस्तक।",
     longDescription:
