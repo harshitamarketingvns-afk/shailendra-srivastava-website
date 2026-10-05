@@ -455,7 +455,7 @@ export const books: Book[] = [
     title: "Diamond Basics",
     subtitle: "The foundation of diamond knowledge — for beginners and professionals",
     author: author.name,
-    cover: "/books/diamond basics.png",
+    cover: "/books/diamond-basics.png",
     description:
       "The essential starting point for anyone entering the diamond trade. Covers the language, the 4Cs, anatomy, light behaviour and the everyday vocabulary used in the diamond world.",
     longDescription:
@@ -473,7 +473,7 @@ export const books: Book[] = [
     title: "डायमंड ग्रेडिंग",
     subtitle: "Diamond Grading — the 4Cs, labs and the language of quality",
     author: author.name,
-    cover:"/books/diamond grading.png",
+    cover: "/books/diamond-grading.png",
     description:
       "ग्रेडिंग की दुनिया — 4Cs, लैब रिपोर्ट, और गुणवत्ता की भाषा को व्यावहारिक उदाहरणों के साथ समझाने वाली एक प्रामाणिक पुस्तक।",
     longDescription:
@@ -563,7 +563,7 @@ export const books: Book[] = [
     title: "नेचुरल vs लैब-ग्रोन डायमंड",
     subtitle: "Natural vs Lab-Grown Diamond — science, market and meaning",
     author: author.name,
-    cover: null,
+    cover: "/books/natural-vs-lab-grown-diamond.png",
     description:
       "प्राकृतिक और लैब-ग्रोन डायमंड के बीच विज्ञान, पहचान, मूल्य और अर्थ का पक्ष-दर-पक्ष विश्लेषण।",
     longDescription:
