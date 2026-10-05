@@ -47,6 +47,9 @@ interface BookJsonLdProps {
     amazonUrl: string;
     gumroadUrl: string;
     slug: string;
+    isbn?: string;
+    numberOfPages?: number;
+    datePublished?: string;
   };
 }
 
@@ -85,7 +88,7 @@ export function BookJsonLd({ book }: BookJsonLdProps) {
     });
   }
 
-  const data = {
+  const data: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Book",
     name: book.title,
@@ -107,6 +110,16 @@ export function BookJsonLd({ book }: BookJsonLdProps) {
     url: `${siteConfig.domain}/books/${book.slug}`,
     offers: offers.length > 0 ? offers : undefined,
   };
+
+  if (book.isbn && book.isbn.trim() !== "") {
+    data.isbn = book.isbn;
+  }
+  if (typeof book.numberOfPages === "number" && book.numberOfPages > 0) {
+    data.numberOfPages = book.numberOfPages;
+  }
+  if (book.datePublished && book.datePublished.trim() !== "") {
+    data.datePublished = book.datePublished;
+  }
 
   return (
     <script

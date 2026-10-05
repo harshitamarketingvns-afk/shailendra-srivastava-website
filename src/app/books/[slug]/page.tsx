@@ -6,6 +6,9 @@ import { books, getBookBySlug, author, isPlaceholderCover } from "@/data/books";
 import { BookCard } from "@/components/site/book-card";
 import { BookButtons } from "@/components/site/book-buttons";
 import { BookCoverImage } from "@/components/site/book-cover-image";
+import { BookWhatYouWillLearn } from "@/components/site/book-what-you-will-learn";
+import { BookChapterOverview } from "@/components/site/book-chapter-overview";
+import { BookFreePreview } from "@/components/site/book-free-preview";
 import { Section } from "@/components/site/section";
 import { BreadcrumbJsonLd, BookJsonLd } from "@/components/site/json-ld";
 
@@ -237,6 +240,10 @@ export default async function BookPage({ params }: BookPageProps) {
           </div>
         </div>
       </section>
+
+      <BookWhatYouWillLearn book={book} />
+      <BookChapterOverview book={book} />
+      <BookFreePreview book={book} />
 
       {/* Related books */}
       {related.length > 0 && (
